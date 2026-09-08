@@ -1,0 +1,16 @@
+// example/echo.proto
+syntax = "proto3";
+package fixbug;   // ⚠️ 保持和你现有 proto 相同的 package，避免命名空间混乱
+
+option cc_generic_services = true;
+service EchoService {
+  rpc Echo(EchoRequest) returns (EchoResponse);
+}
+
+message EchoRequest {
+  bytes payload = 1;
+}
+
+message EchoResponse {
+  bytes payload = 1;
+}

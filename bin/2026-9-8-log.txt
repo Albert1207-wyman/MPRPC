@@ -1,0 +1,13 @@
+12:24:48 =>first log message!
+12:24:48 =>/home/wyman/MPRPC/example/callee/friendservice.cc:main:48
+18:19:1 =>[error]first log message!
+18:19:1 =>[error]/home/wyman/MPRPC/example/callee/friendservice.cc:main:48
+18:19:1 =>[info]service_name:FriendServiceRpc
+18:19:1 =>[info]method_name:FriendServiceRpc
+18:25:20 =>[error]first log message!
+18:25:20 =>[error]/home/wyman/MPRPC/example/callee/friendservice.cc:main:48
+18:25:20 =>[info]service_name:FriendServiceRpc
+18:25:20 =>[info]method_name:FriendServiceRpc
+18:31:11 =>[error]first log message!
+18:31:11 =>[error]/home/wyman/MPRPC/example/callee/friendservice.cc:main:48
+18:31:11 =>[info]service_name:FriendServiceRpc

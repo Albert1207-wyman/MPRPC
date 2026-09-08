@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/include",
+                "${workspaceFolder}/example",
+                "/home/wyman/package/muduo",
+                "/home/wyman/package/apache-zookeeper-3.9.5/zookeeper-client/zookeeper-client-c/include",
+                "/home/wyman/package/apache-zookeeper-3.9.5/zookeeper-client/zookeeper-client-c/generated"
+            ],
+            "defines": ["THREADED"],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            
+        }
+    ],
+    "version": 4
+}
